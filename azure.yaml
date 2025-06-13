@@ -1,0 +1,8 @@
+name: vanshika-function-app
+metadata:
+  template: azure-functions-csharp
+services:
+  api:
+    project: .
+    language: dotnet
+    host: function
