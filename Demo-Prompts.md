@@ -1,7 +1,7 @@
 ## Azure Function Demo - Copilot Commands
 This document lists the various commands used in the Azure Function demo project along with their purposes.
 
-### Code Understanding Commands
+## Code Understanding Commands
 1. /explain Please explain this code base
 
    - Use this command to get a comprehensive explanation of the codebase
@@ -11,7 +11,7 @@ This document lists the various commands used in the Azure Function demo project
    - Generates inline documentation for the code
    - Creates detailed comments and explanations within the code
 
-### Deployment and Environment Commands
+## Deployment and Environment Commands
 3.@workspace Provide the deployment information
    - Retrieves deployment-related information
    - Shows configuration and setup requirements
