@@ -3,7 +3,6 @@ This document lists the various commands used in the Azure Function demo project
 
 ## Code Understanding Commands
 1. /explain Please explain this code base
-
    - Use this command to get a comprehensive explanation of the codebase
    - Helps understand the structure and purpose of the Azure Function
 
@@ -12,6 +11,7 @@ This document lists the various commands used in the Azure Function demo project
    - Creates detailed comments and explanations within the code
 
 ## Deployment and Environment Commands
+
 3.@workspace Provide the deployment information
    - Retrieves deployment-related information
    - Shows configuration and setup requirements
@@ -35,7 +35,7 @@ This document lists the various commands used in the Azure Function demo project
 
 ## Code Modification Commands
 8. Edit HelloWorld.cs and update This HTTP triggered function executed successfully to Welcome!
-   - Change the message "HTTP triggered function executed successfully" to "Welcome!".
+   - Change the message "HTTP triggered function executed successfully" to "Welcome!" and Restart the function.
    - Modifies time display functionality
 
 9. Edit the functionality to include a Greeting based on the time of the day
@@ -46,3 +46,5 @@ This document lists the various commands used in the Azure Function demo project
 - Commands starting with @azure interact with Azure services
 - Commands starting with / are for code generation and documentation
 - Local execution commands help in testing before deployment
+- Use VS Code's built-in Function App debugger (F5)
+- Add host.json in bin /output
