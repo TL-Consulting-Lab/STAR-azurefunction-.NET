@@ -46,6 +46,10 @@ A simple HTTP-triggered Azure Function built with .NET 8 (in-process model).
    - Click "Test/Run"
    - Add parameter: name=YourName
    - Click "Run"
+     
+   - Azure Functions require an authentication key by default for security
+     https://vanshika-function-app-3pxfkuoee4uo6.azurewebsites.net/api/helloworld?name=Vanshika&code=B4l1QH2Nhsg5EA6WjrFhNaUE-opahhBVD539r6WYN36hAzFuZ4bnWA==
+   - Change the function's authentication level to "anonymous" if you want to access it without a key
 
 3. Test via URL:
    ```bash
