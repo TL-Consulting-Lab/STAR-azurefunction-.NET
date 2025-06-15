@@ -34,8 +34,8 @@ This document lists the various commands used in the Azure Function demo project
    - Provides local testing URL
 
 ## Code Modification Commands
-8. Edit #file azure-function-copilot-demo.cs Update the time to AEST instead of UTC time
-   - Changes the time zone from UTC to Australian Eastern Standard Time
+8. Edit HelloWorld.cs and update This HTTP triggered function executed successfully to Welcome!
+   - Change the message "HTTP triggered function executed successfully" to "Welcome!".
    - Modifies time display functionality
 
 9. Edit the functionality to include a Greeting based on the time of the day
