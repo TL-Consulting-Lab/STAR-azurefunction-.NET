@@ -271,6 +271,7 @@ __queuestorage__
 __tablestorage__
 .output/
 output/
+AzuriteConfig/
 
 # Azure Developer CLI
 .azure/
