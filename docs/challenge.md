@@ -23,36 +23,38 @@ Create unit tests to verify:
 ### 3. Azure Deployment
 Deploy the function to Azure:
 1. Check Azure subscription
-```bash
+```
 @azure Check subscription details
 ```
 
 2. Create/verify resources
-```bash
+```
 @azure Check if function app exists
 ```
 
 3. Deploy function
-```bash
+```
 @azure Deploy function and get URL
 ```
 
 ### 4. Documentation
 Generate documentation using Copilot:
-```bash
+```
 /Generate Generate documentation for the time-based greeting function
 ```
 ### 5. Create a workflow diagram
+```
 Generate a workflow diagram using Copilot
-
-## Success Criteria
-1. Function returns correct greetings based on AEST time
-2. All unit tests pass
-3. Function successfully deployed to Azure
-4. Documentation complete and accurate
+```
+### 6. Success Criteria
+Ensure the function meets the following criteria:
+- Returns correct greetings based on AEST time
+- All unit tests pass
+- Function successfully deployed to Azure
+- Documentation complete and accurate
 
 ## Helpful Copilot Commands
-```bash
+```
 # Get code explanation
 /explain Please explain the greeting logic
 
