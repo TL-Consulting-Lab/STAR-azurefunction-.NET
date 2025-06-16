@@ -77,8 +77,9 @@ A simple HTTP-triggered Azure Function built with .NET 8 (in-process model).
 ## Project Structure
 
 ```
-├── HelloWorld.cs              # HTTP-triggered function
-├── Program.cs                 # Entry point
+├── src/                       # Source code files
+│   ├── HelloWorld.cs         # HTTP-triggered function
+│   └── Program.cs            # Entry point
 ├── local.settings.json        # Local settings
 ├── host.json                  # Global settings
 ├── infra/                     # Infrastructure as Code
